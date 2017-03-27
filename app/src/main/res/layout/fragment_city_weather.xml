@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.hpkorisnik.weatherapp.MainActivity"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textColor="@android:color/background_dark"
+            android:id="@+id/textViewCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Name"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+        />
+
+        <ImageView
+            android:id="@+id/imageViewPen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_edit"
+            android:layout_toRightOf="@+id/textViewCity"
+        />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textViewTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="0 Celsius deg"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.16"
+        app:srcCompat="@android:drawable/ic_menu_report_image" />
+
+    <TextView
+        android:textColor="@android:color/background_dark"
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_weight="0.58"
+        android:paddingTop="40dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewWind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:paddingBottom="10dp"
+                android:text="Wind speed [mps]"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewWindValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:id="@+id/textViewClouds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="Cloudiness  [%]"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewCloudsValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:id="@+id/textViewSunrise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="Sunrise"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewSunriseValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:id="@+id/textViewSunset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:text="Sunset"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewSunsetValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

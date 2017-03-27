@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#303f9f</color>
+    <color name="smallFontColor">#c1c0d9</color>
+    <color name="salmon">#fe938c</color>
+    <color name="sand">#ffcc5c</color>
+    <color name="beach">#ffeead</color>
+    <color name="black">#000000</color>
+    <color name="pale">#f7fff6</color>
+    <color name="ocean">#b8b8f3</color>
+    <color name="purple">#1f0812</color>
+    <color name="blues">#bbdef0</color>
+    <color name="nude">#b98b82</color>
+    <color name="mauve">#ef767a</color>
+    <color name="skin">#b5ba72</color>
+    <color name="dark_blue">#161925</color>
+    <color name="middle_blue">#344055</color>
+    <color name="white">#ffff</color>
+    <color name="violet">#888098</color>
+    <color name="sky">#ebe9e9</color>
+    <color name="rose">#e4c2c6</color>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="iconsUrl">http://openweathermap.org/img/w/</string>
+    <string name="fksk">kfekf</string>
+    <string name="fevww">kfekfe</string>
+    <string name="change_city">Change city</string>
+    <string name="name_of_default_city">Banjaluka</string>
+</resources>
